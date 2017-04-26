@@ -1,26 +1,17 @@
-# SchwarzenSlacker
+# MatterMost Dark Theme 
 
-[![Build
-Status](https://travis-ci.org/joshuacox/SchwarzenSlacker.svg?branch=master)](https://travis-ci.org/joshuacox/SchwarzenSlacker)
+### Installation
 
-Literally "Blacken the slack"
+Look in your Account Settings --> Display --> Theme --> Edit --> Select
+`Custom Theme`
 
-## Quickstart
+then paste this into the resulting box:
 
-Merely go
-[here](https://userstyles.org/styles/141526/schwarzenslacker)
-and install using stylish, if you want to create your own read on...
-
-## Usage
-
-#### Manually
 
 ```
-sass schwarzenslacker.scss schwarzenslacker.css
+{"awayIndicator":"#D40079","buttonBg":"#220022","buttonColor":"#00FF00","centerChannelBg":"#000000","centerChannelColor":"#33DD33","codeTheme":"thalhalla","errorTextColor":"#ff6461","linkColor":"#FF33FF","mentionBg":"#000022","mentionBj":"#000022","mentionColor":"#FF00AA","mentionHighlightBg":"#002200","mentionHighlightLink":"#AA00FF","newMessageSeparator":"#CC992D","onlineIndicator":"#52ADAD","sidebarBg":"#220022","sidebarHeaderBg":"#330033","sidebarHeaderTextColor":"#22EE22","sidebarText":"#11dd11","sidebarTextActiveBorder":"#330033","sidebarTextActiveColor":"#33FF33","sidebarTextHoverBg":"#AAFFAA","sidebarUnreadText":"#FF2233"}
 ```
 
-Then copy the resulting schwarzenslacker.css into stylish and associate with your
-selected slack domain.
 
 #### Makefile
 
@@ -33,4 +24,4 @@ your clipboard (assuming you are in X).  Then just paste into stylish
 
 #### Installation
 
-You can just copy the contents of schwarzenslacker.css into a stylish document.
+You can just copy the contents of your clipboard into the custom style as above
